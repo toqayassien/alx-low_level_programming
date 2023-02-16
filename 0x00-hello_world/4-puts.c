@@ -2,9 +2,10 @@
 
 int main(void)
 {
+
 	char Myster[100] = "Programming is like building a multilingual puzzle";
 
-	puts(Mystr);
+	puts(Myster);
 
 	return 0;
 }
