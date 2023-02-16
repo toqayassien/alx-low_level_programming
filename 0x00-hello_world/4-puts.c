@@ -2,7 +2,7 @@
 
 int main(void)
 {
-	char [Mystr] = "Programming is like building a multilingual puzzle";
+	char Myster[100] = "Programming is like building a multilingual puzzle";
 
 	puts(Mystr);
 
