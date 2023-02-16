@@ -11,5 +11,5 @@ int main(void)
 
 	printf("%s",p);
 
-	Return (0);
+	return (0);
 }
