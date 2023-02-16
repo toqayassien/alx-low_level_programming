@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 /**
- * main comment for betty
+ * main
+ * comment
+ * for betty
  */
 int main(void)/*entry point*/
 {
