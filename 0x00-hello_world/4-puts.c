@@ -1,9 +1,9 @@
 #include <stdio.h>
-/*
+
+/**
  * initialization comment
  */
-
-int main(void) /*entry point*/
+int main(void)
 {
 
 	char Myster[100] = "\"Programming is like building a multilingual puzzle";
