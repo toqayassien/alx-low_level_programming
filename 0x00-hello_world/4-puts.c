@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main
+ * main:
  * comment
  * for betty
  */
@@ -14,7 +14,7 @@ int main(void)/*entry point*/
 
 	puts(Myster);
 /*
- * return value comment
+ * return:0 value comment
  */
 	return (0);
 }
