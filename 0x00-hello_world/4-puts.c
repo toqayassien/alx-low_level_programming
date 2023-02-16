@@ -2,7 +2,9 @@
 
 int main(void)
 {
-	char task[]= "Programming is like building a multilingual puzzle";
-	puts(task);
-	return(0)
+	char [Mystr] = "Programming is like building a multilingual puzzle";
+
+	puts(Mystr);
+
+	return 0;
 }
