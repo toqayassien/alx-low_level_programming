@@ -1,14 +1,14 @@
 #include <stdio.h>
-
-/**
- * main function
+/*
+ * initialization comment
  */
-int main()
+
+int main(void)
 {
 
 	char Myster[100] = "\"Programming is like building a multilingual puzzle";
 
 	puts(Myster);
 
-	return (0);
+	return (0); /*return value for main*/
 }
