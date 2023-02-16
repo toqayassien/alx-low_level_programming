@@ -7,9 +7,10 @@
  */
 int main(void)
 {
-	char p[100] ="with proper grammar, but the outcome is a piece of art,";
+	char p[100] = "with proper grammar, but the outcome is a piece of art,";
 
-	printf("%s",p);
+	printf("%s", p);
 
 	return (0);
+
 }
