@@ -8,8 +8,8 @@ int main(void)/*main: for betty*/
 {
 	char ch = 'a';
 
-	for (ch = 'a' && ch != 'e' && ch != 'q'; ch <= 'z'; ch++)
-		putchar(ch);
+	for (ch = 'a'; ch <= 'z'; ch++)
+		putchar(ch != 'e' && ch != 'q');
 	putchar('\n');
 	return (0);
 }
