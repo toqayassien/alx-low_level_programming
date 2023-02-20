@@ -10,8 +10,8 @@ int main(void)/*main: for betty*/
 
 	for (x = 0; x <= 0; x++)
 		putchar(x + '0');
-	if (x < 9)
+	while (x < 9)
 		putchar(',');
-		putchar('\n');
+	putchar('\n');
 	return (0);
 }
