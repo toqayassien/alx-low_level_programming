@@ -1,15 +1,15 @@
 #include <stdio.h>
 /**
  * main -Entry point
- * Description: delete e and q
+ * Description:numbers
  * Return:0
  */
 int main(void)/*main: for betty*/
 {
-	char ch = 'a';
+	int a = '1';
 
-	for (ch = 'a'; ch <= 'z'; ch++)
-		putchar(ch);
+	for (a = 'a'; a <= '9'; a++)
+		putchar('a');
 	putchar('\n');
 	return (0);
 }
