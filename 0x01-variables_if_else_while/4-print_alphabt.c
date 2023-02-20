@@ -9,7 +9,7 @@ int main(void)/*main: for betty*/
 	char ch = 'a';
 
 	for (ch = 'a'; ch <= 'z'; ch++)
-		putchar((ch)- 'e' && 'q');
+		putchar((ch)- 'e');
 	putchar('\n');
 	return (0);
 }
