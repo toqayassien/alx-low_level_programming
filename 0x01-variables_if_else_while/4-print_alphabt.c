@@ -8,7 +8,7 @@ int main(void)/*main: for betty*/
 {
 	char ch = 'a';
 
-	for (ch = 'a'; ch <= 'z' && ch != 'e' && ch != 'q'; ch++)
+	for (ch = 'a'; ch <= 'z' != 'e' != 'q'; ch++)
 		putchar(ch);
 	putchar('\n');
 	return (0);
