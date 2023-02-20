@@ -7,12 +7,12 @@
 int main(void)/*main: description for betty*/
 {
 	char ch = 'a';
-	char CH = 'A';
+	char hc = 'A';
 
 	for (ch = 'a'; ch <= 'z'; ch++)
-	for (CH = 'A'; CH <= 'Z'; CH++)
 		putchar(ch);
-		putchar(CH);
+	for (hc = 'A'; hc <= 'Z'; hc++)
+		putchar(hc);
 	putchar('\n');
 	return (0);
 }
