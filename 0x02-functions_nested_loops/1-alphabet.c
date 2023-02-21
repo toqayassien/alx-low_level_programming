@@ -1,11 +1,10 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * main -entry point
  * desc: print alphabet
  * Return:0
  */
-int main(void)
-{
 void print_alphabet(void)
 {
 	char a;
@@ -14,5 +13,3 @@ void print_alphabet(void)
 		putchar(a);
 	putchar('\n');
 }
-	return (0);
-	}
