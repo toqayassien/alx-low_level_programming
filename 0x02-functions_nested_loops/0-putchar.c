@@ -4,10 +4,8 @@
  * desc: print
  * return:0
  */
-int main(void)/*main: for betty*/
+int main(void)
 {
-	char ch;
-
-	printf("_putchar\n");
+	_putchar("_putchar");
 	return (0);
 }
