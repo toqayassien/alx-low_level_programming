@@ -2,9 +2,9 @@
 /**
  * main -entry point
  * desc: print
- * return:0
+ * Return:0
  */
-int main(void)/*main:for betty*/
+int main(void)/*main: for betty*/
 {
 	putchar('_');
 	putchar('p');
