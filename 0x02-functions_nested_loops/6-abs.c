@@ -6,7 +6,6 @@
  */
 int _abs(int x)/*_abs: for betty*/
 {
-	int x;
 
 	if (x >= 0)
 		return (x);
