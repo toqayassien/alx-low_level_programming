@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print alphabet -entry point
+ * print_alphabet -entry point
  * desc: print alphabet
  */
 void print_alphabet(void)/*print_alphabet: for betty*/
