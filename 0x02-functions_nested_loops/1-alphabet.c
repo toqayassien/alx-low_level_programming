@@ -3,7 +3,7 @@
  * print alphabet -entry point
  * desc: print alphabet
  */
-void print_alphabet(void)/*main: for betty*/
+void print_alphabet(void)/*print_alphabet: for betty*/
 {
 	char c;
 
