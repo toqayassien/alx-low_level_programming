@@ -4,7 +4,7 @@
  *naturals -entry point
  *desc: divide and sum
  */
-int naturals(void)/*naturals: for betty*/
+int main(void)/*naturals: for betty*/
 {
 	int i;
 	int sum = 0;
