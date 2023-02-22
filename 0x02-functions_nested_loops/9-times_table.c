@@ -16,7 +16,7 @@ void times_table(void)/*times_table: for betty*/
 		{
 			_putchar(',');
 			_putchar(' ');
-			
+
 			r = x * t;
 
 			if (r <= 9)
