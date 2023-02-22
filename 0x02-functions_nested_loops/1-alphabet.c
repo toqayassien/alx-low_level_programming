@@ -3,8 +3,11 @@
  * print alphabet -entry point
  * desc: print alphabet
  */
-int main(void)/*main: for betty*/
+void print_alphabet(void)/*main: for betty*/
 {
-	print_alphabet();
-	return(0);
+	char c;
+
+	for (c = 'a'; c <= 'z'; c++)
+		_putchar(c);
+	_putchar('\n');
 }
