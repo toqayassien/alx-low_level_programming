@@ -12,7 +12,7 @@ void times_table(void)/*times_table: for betty*/
 	for (x = 0; x <= 9; x++)
 	{
 		_putchar('0');
-		for (t = 1; t <= 9; t++);
+		for (t = 1; t <= 9; t++)
 		{
 			_putchar(',');
 			_putchar(' ');
