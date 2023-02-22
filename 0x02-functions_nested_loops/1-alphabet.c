@@ -6,13 +6,13 @@
  */
 int main(void)/*main: for betty*/
 {
-	void print_alphabet(void)
+	print_alphabet();
 	{
 	char ch;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
-		_putchar(ch);
+		for (ch = 'a'; ch <= 'z'; ch++)
+			_putchar(ch);
 	_putchar('\n');
-	return;
-	}
+	return(0);
+}
 }
