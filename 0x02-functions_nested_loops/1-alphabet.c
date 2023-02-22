@@ -1,15 +1,15 @@
-#include <stdio.h>
 #include "main.h"
 /**
  * main -entry point
  * desc: print alphabet
  * Return:0
  */
-void print_alphabet(void)
+int main(void)/*main: for betty*/
 {
-	char a;
-	
-	for (a = 'a'; a <= 'z'; a++)
-		putchar(a);
-	putchar('\n');
+	char ch;
+
+	for (ch = 'a'; ch <= 'z'; ch++)
+		_putchar(ch);
+	_putchar('\n');
+	return (0);
 }
