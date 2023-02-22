@@ -3,7 +3,7 @@
  *_islower -entry point
  *desc: lower case
  *Return:0
- *c: letter
+ *@c: letter
  */
 int _islower(int c)/*_islower: for betty*/
 {
