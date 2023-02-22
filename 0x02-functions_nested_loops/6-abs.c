@@ -4,7 +4,7 @@
  * desc: absolute value
  * Return:0
  */
-int _abs(int)/*_abs: for betty*/
+int _abs(int x)/*_abs: for betty*/
 {
 	int x;
 
