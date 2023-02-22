@@ -8,14 +8,14 @@
 int print_sign(int n)/*print_sign: for betty*/
 {
 	if (n > 0)
-	{	_putchar('+');	
+	{	_putchar('+');
 		return (1);
 	}
 	else if (n < 0)
 	{	_putchar('-');
 		return (-1);
 	}
-	else 
+	else
 	{	_putchar('0');
 		return (0);
 	}
