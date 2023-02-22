@@ -6,7 +6,6 @@
  */
 int _islower(int c)/*_islower: for betty*/
 {
-	int c;
 
 	if (c >= 'a' && c <= 'z')
 		return (1);
