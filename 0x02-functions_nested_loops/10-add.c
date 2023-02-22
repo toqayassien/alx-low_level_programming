@@ -4,12 +4,7 @@
  * desc: add
  * Return:0
  */
-int add(int x, int y)
+int add(int x, int y)/*add: for betty*/
 {
-	int c;
-
-	c = x + y;
-
-	_putchar(c);
-	return (0);
+	return (x + y);
 }
