@@ -5,7 +5,7 @@
 * Return: 0
 */
 
-int main(void)
+int main(void)/*main: for betty*/
 {
         int i;
 
@@ -15,7 +15,7 @@ int main(void)
 
         while (i < 10)/*causes an infinite loop*/
         {
-                putchar(i);
+                putchar(i);/*causes an infinite loop*/
         }
 
         printf("Infinite loop avoided! \\o/\n");
