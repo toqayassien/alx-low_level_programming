@@ -3,8 +3,6 @@
 /**
 * main - causes an infinite loop
 * Return: 0
-* While: i is not incremented
-* @i : not incremented
 */
 
 int main(void)
@@ -13,9 +11,9 @@ int main(void)
 
         printf("Infinite loop incoming :(\n");
 
-        i = 0;/*i not incremented*/
+        i = 0;
 
-        while (i < 10)/*i not incremented*/
+        while (i < 10)/*i not increment*/
         {
                 putchar(i);/*i is not incremented*/
         }
