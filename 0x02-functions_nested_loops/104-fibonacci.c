@@ -7,16 +7,21 @@
  */
 int main(void)/*main: for betty*/
 {
-	int fib1 = 1, fib2 = 2, sum;
+	unsigned long fib1 = 1, fib2 = 2, sum;
 	int count = 1;
-
-	for ( count = 0; count <= 98; count++)
+	
+	for (count = 1; count <= 98; count++)
 	{
 		sum = fib1 + fib2;
-		printf("%d, ", sum);
+		printf("%lu, ", sum);
 
 		fib1 = fib2;
 		fib2 = sum;
+
+		if (count == 98)
+			printf("\n");
+		else 
+			printf(", ");
 	}
 	return (0);
 }
