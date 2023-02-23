@@ -8,9 +8,9 @@
 int main(void)/*main: for betty*/
 {
 	unsigned long fib1 = 1, fib2 = 2, sum;
-	int count = 1;
-	
-	for (count = 1; count <= 98; count++)
+	int count = 0;
+
+	for (count = 0; count <= 98; count++)
 	{
 		sum = fib1 + fib2;
 		printf("%lu, ", sum);
@@ -20,7 +20,7 @@ int main(void)/*main: for betty*/
 
 		if (count == 98)
 			printf("\n");
-		else 
+		else
 			printf(", ");
 	}
 	return (0);
