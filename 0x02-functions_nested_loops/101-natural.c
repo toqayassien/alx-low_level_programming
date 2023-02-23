@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include "main.h"
 /**
- *naturals -entry point
+ *main -entry point
  *desc: divide and sum
+ *Return:0
  */
 int main(void)/*naturals: for betty*/
 {
@@ -15,6 +16,5 @@ int main(void)/*naturals: for betty*/
 				sum += i;
 	}
 		printf("%d\n", sum);
-	
 	return (0);
 }
