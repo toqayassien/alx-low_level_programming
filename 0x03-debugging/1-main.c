@@ -13,10 +13,10 @@ int main(void)/*main: for betty*/
 
         i = 0;
 
-        while (i < 10)/*causes an infinite loop*/
-        {
-                putchar(i);/*causes an infinite loop*/
-        }
+        /*while (i < 10)
+        *{
+         *       putchar(i);
+	 */
 
         printf("Infinite loop avoided! \\o/\n");
 
