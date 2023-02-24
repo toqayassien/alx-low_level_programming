@@ -3,16 +3,13 @@
 void positive_or_negative(int i)/*print_sign: for betty*/
 {
 	if (i > 0)
-	{	putchar('+');
-		return (1);
+	{	printf ("%d is positive", i);
 	}
 	else if (i < 0)
-	{	putchar('-');
-		return (-1);
+	{	printf ("%d is negative", i);
 	}
 	else
-	{	putchar('0');
-		return (0);
+	{	printf ("%d is zero", i);
 	}
 	return (0);
 }
