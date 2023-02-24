@@ -1,12 +1,12 @@
 #include "main.h"
 
-int positive_or_negative(int n)/*print_sign: for betty*/
+void positive_or_negative(int i)/*print_sign: for betty*/
 {
-	if (n > 0)
+	if (i > 0)
 	{	_putchar('+');
 		return (1);
 	}
-	else if (n < 0)
+	else if (i < 0)
 	{	_putchar('-');
 		return (-1);
 	}
