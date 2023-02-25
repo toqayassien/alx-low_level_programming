@@ -8,7 +8,6 @@ int main(void)/*main: for betty*/
 	int i;
 
 	for (i = 1; i <= 100; i++)
-		printf("%d\n", i);
 	{
 		if ((i % 3) == 0)
 			printf("\nFizz\n");
@@ -17,4 +16,5 @@ int main(void)/*main: for betty*/
 		else if ((i % 5) == 0 && (i % 3) == 0)
 			printf("\nFizzBuzz\n");
 	}
+	printf("%d\n", i);
 }
