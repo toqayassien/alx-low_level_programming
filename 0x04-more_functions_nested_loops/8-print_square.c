@@ -14,6 +14,7 @@ void print_square(int size)/*print_square: for betty*/
 		{
 			for (wid = 0; wid < size; wid++)
 				_putchar('#');
+
 			if (hgt == size -1)
 				continue;
 			_putchar('\n');
