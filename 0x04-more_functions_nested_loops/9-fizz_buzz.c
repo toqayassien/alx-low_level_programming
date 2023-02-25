@@ -10,11 +10,14 @@ int main(void)/*main: for betty*/
 	for (i = 1; i <= 100; i++)
 	{
 		if ((i % 3) == 0)
-			printf("\nFizz\n");
+			printf("Fizz ");
 		else if ((i % 5) == 0)
-			printf("\nBuzz\n");
+			printf("Buzz ");
 		else if ((i % 5) == 0 && (i % 3) == 0)
-			printf("\nFizzBuzz\n");
+			printf("FizzBuzz ");
+		else
+			printf("%d", i);
+
 	}
-	printf("%d\n", i);
+	printf("\n");
 }
