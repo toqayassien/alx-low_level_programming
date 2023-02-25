@@ -22,4 +22,5 @@ int main(void)/*main: for betty*/
 		printf(" ");
 	}
 	printf("\n");
+	return (0);
 }
