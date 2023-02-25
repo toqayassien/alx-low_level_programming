@@ -20,5 +20,6 @@ void print_square(int size)/*print_square: for betty*/
 			_putchar('\n');
 		}
 	}
+
 	_putchar('\n');
 }
