@@ -4,7 +4,7 @@
  *Desc: print line
  *@n: lines
  */
-void print_line(int n)
+void print_line(int n)/*print_line: for betty*/
 {
 	int line;
 
