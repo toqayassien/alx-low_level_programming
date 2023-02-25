@@ -2,7 +2,7 @@
 /**
  *main -main entry
  *Desc: FizzBuzz
-Return:0
+ *Return:0
  */
 int main(void)/*main: for betty*/
 {
