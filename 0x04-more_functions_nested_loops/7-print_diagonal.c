@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- *print_diagonal: for betty
+ *print_diagonal -main point
  *Desc: print line
  *@n: length
  */
-void print_diagonal(int n)
+void print_diagonal(int n)/*print_diagonal: for betty*/
 {
 	int len;
 	int space;
