@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *Print_line -main entry
+ *print_line -main entry
  *Desc: print line
  *@n: lines
  */
