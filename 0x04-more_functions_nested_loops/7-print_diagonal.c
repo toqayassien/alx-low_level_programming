@@ -1,7 +1,7 @@
 #include "main.h"
 /**
+ *print_diagonal: for betty
  *Desc: print line
- *print_diagonal -main entry
  *@n: length
  */
 void print_diagonal(int n)
