@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  *more_numbers -entry point
- *Desc: 10 times
+ *Desc:10 times
  */
 void more_numbers(void)/*more_numbers: for betty*/
 {
