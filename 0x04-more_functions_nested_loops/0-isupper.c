@@ -5,15 +5,9 @@
  */
 int _isupper(int c)
 {
-	char ch;
-
-	if (ch = 'A')
-	{
-	for (ch = 'A'; ch <= 'Z'; ch++)
+	if ( c <= 'A' && c >= 'Z')
 		return (1);
-	}
-	else 
+	else
 		return (0);
-	
 	return (0);
 }
