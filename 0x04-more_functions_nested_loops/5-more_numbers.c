@@ -16,6 +16,6 @@ void more_numbers(void)/*more_numbers: for betty*/
 			_putchar((x / 10)+ '0');
 			_putchar((x % 10)+ '0');
 		}
-		_putchar('\n');
+	_putchar('\n');
 	}
 }
