@@ -10,7 +10,7 @@ void more_numbers(void)/*more_numbers: for betty*/
 
 	for (count = 0; count <= 9; count++)
 	{
-		for(x = 0; x <= 14; x++)
+		for (x = 0; x <= 14; x++)
 		{
 			if (x > 9)
 				_putchar((x / 10) + '0');
