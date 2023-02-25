@@ -17,7 +17,9 @@ int main(void)/*main: for betty*/
 			printf("FizzBuzz ");
 		else
 			printf("%d ", i);
-
+		if (i == 100)
+			continue;
+		printf(" ");
 	}
 	printf("\n");
 }
