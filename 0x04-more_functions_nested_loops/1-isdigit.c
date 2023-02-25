@@ -13,5 +13,7 @@ int _isdigit(int c)/*_isdigit: for betty*/
 		return (0);
 	else if (c >= 'A' && c <= 'Z')
 		return (0);
+	else 
+		return (0);
 	return (0);
 }
