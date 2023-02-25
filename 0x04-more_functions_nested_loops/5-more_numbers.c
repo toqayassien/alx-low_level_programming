@@ -7,7 +7,7 @@ void more_numbers(void)/*more_numbers: for betty*/
 {
 	int x;
 	int count;
-
+	
 	for (count = 0; count <= 9; count++)
 	{
 		for (x = 0; x <= 14; x++)
