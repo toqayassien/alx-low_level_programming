@@ -7,6 +7,6 @@ void _puts(char *str)/*_puts: for betty*/
 {
 	char rin[20];
 
-	str = &rin[20];
+	*str = rin[20];
 	_puts("*str\n");
 }
