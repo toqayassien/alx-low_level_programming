@@ -5,8 +5,8 @@
  */
 void _puts(char *str)/*_puts: for betty*/
 {
-	char rin;
+	char rin[20];
 
-	str = &rin;
+	str = &rin[20];
 	_puts("*str\n");
 }
