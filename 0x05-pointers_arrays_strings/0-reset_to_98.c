@@ -6,11 +6,5 @@
  */
 void reset_to_98(int *n)/*reset_to_98 : for betty*/
 {
-	int a;
-	int *p;
-
-	p = &a;
-	*p = 98;
-
-	_putchar(a);
+	*n = 98;
 }
