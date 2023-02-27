@@ -6,8 +6,8 @@
  */
 int _strlen(char *s)/*_strlen : for betty*/
 {
-	int len;
+	char *len;
 
-	len = _strlen("*s");
+	*len = _strlen("*s");
 	return (0);
 }
