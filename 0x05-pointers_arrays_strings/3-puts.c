@@ -5,8 +5,6 @@
  */
 void _puts(char *str)/*_puts: for betty*/
 {
-	char ring[4];
-	
-	str = ring;
 	_putchar(*str);
 }
+
