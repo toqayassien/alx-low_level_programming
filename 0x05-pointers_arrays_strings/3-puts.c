@@ -5,10 +5,8 @@
  */
 void _puts(char *str)/*_puts: for betty*/
 {
-	char rin[10];
-	int i;
+	char rin;
 
-	str = &rin[10];
-	for (i =0; i < 11; i++)
-		_puts("*str\n");
+	str = &rin;
+	_puts("*str\n");
 }
