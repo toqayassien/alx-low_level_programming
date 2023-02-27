@@ -6,10 +6,8 @@
  */
 int _strlen(char *s)/*_strlen : for betty*/
 {
-	char *str;
 	int len;
 
-	str = "StringLength";
-	len = _strlen(str);
+	len = _strlen("*s");
 	return (0);
 }
