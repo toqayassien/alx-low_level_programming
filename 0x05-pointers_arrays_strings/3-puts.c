@@ -1,11 +1,11 @@
 #include "main.h"
 /**
  *_puts -main
- *@str :string 
+ *@str :string
  */
 void _puts(char *str)/*_puts: for betty*/
 {
-	while(*str)
+	while (*str)
 		_putchar(*str++);
 	_putchar('\n');
 }
