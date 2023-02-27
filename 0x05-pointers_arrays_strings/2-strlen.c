@@ -9,7 +9,7 @@ int _strlen(char *s)/*_strlen : for betty*/
 	int len;
 	char str;
 	
-	s = &str;
+	*s = str;
 	len = _strlen("*s");
 	_putchar(len);
 	return (0);
