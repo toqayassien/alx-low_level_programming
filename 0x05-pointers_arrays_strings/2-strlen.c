@@ -6,11 +6,12 @@
  */
 int _strlen(char *s)/*_strlen : for betty*/
 {
-	int len;
-	char str;
-	
-	*s = str;
-	len = _strlen("*s");
-	_putchar(len);
+	char str[100];
+	int i;
+	int l = 0;
+
+	for (i = 0; str[i]; i++)
+		l++;
+	_putchar(i);
 	return (0);
 }
