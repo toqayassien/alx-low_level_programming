@@ -12,5 +12,5 @@ void puts2(char *str)/*puts2 : for betty*/
 		len++;
 
 	for (index = len - 1; index >= len - 2; index++)
-		_putchar(str[index]);
+	_putchar('\n');
 }
