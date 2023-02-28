@@ -5,4 +5,15 @@
  */
 void print_rev(char *s)/*print_rev : for betty*/
 {
+	int i;
+	int ind;
 
+	while (s[ind])
+		i++;
+	{
+		for (ind = i - 1; s[i]; ind--)
+			_putchar(s[ind]);
+	}
+
+	_putchar('\n');
+}
