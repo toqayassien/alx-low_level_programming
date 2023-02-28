@@ -3,6 +3,7 @@
  *_strlen -main
  *@s : string
  *return:0
+ *return: i
  */
 int _strlen(char *s)/*_strlen : for betty*/
 {
