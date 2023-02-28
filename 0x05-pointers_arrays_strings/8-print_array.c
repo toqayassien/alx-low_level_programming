@@ -18,4 +18,4 @@ void print_array(int *a, int n)/*print_array : for betty*/
 		printf(", ");
 	}
 	printf("\n");
-}	
+}
