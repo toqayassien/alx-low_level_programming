@@ -11,6 +11,5 @@ int _strlen(char *s)/*_strlen : for betty*/
 
 	for (i = 0; s[i]; i++)
 		l++;
-	_putchar(i);
-	return (0);
+	return (i);
 }
