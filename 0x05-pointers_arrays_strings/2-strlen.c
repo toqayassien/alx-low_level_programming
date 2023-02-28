@@ -10,6 +10,8 @@ int _strlen(char *s)/*_strlen : for betty*/
 	int i;
 	int l = 0;
 
+	s = str;
+
 	for (i = 0; str[i]; i++)
 		l++;
 	_putchar(i);
