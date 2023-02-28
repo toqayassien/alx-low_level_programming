@@ -6,7 +6,7 @@
 void print_rev(char *s)/*print_rev : for betty*/
 {
 	int i;
-	int ind;
+	int ind = 0;
 
 	while (s[ind])
 		i++;
