@@ -7,11 +7,7 @@
  */
 void print_array(int *a, int n)/*print_array : for betty*/
 {
-	int i[n];
-
-	*a = i[n];
-
-	while (i[n++])
+	while (a[n++])
 		printf("%d, ", *a);
 	_putchar('\n');
 }	
