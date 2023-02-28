@@ -2,7 +2,7 @@
 /**
  *_strlen -main
  *@s : string
- *return: i
+ *return : i
  */
 int _strlen(char *s)/*_strlen : for betty*/
 {
