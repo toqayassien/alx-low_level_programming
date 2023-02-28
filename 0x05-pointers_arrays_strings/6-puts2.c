@@ -11,6 +11,7 @@ void puts2(char *str)/*puts2 : for betty*/
 	while (str[index++])
 		len++;
 
-	for (index = len - 1; index >= len - 2; index++)
+	for (index = 0; index < len; index += 2)
+		_putchar(str[index]);
 	_putchar('\n');
 }
