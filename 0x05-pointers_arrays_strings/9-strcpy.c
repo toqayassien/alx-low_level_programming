@@ -7,5 +7,9 @@
  */
 char *_strcpy(char *dest, char *src)
 {
+	char tmp;
+
+	*src = tmp;
+	tmp = *dest;
 	*dest = *src;
 }
