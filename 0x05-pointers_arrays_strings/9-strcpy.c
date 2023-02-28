@@ -3,7 +3,7 @@
  **_strcpy -main
  *@dest: str1
  *@src: str2
- *return:dest
+ *Return:dest
  */
 char *_strcpy(char *dest, char *src)
 {
