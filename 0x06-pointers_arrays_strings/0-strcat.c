@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *_strcat -main entry
+ *strcat -main entry
  *@dest: destination
  *@src: source
  *Return: dest
