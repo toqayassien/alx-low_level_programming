@@ -2,8 +2,9 @@
 /**
  *_strncpy -main point
  *@dest: destination
- *@src : source 
+ *@src : source
  *@n: number of char
+ *Return: dest
  */
 char *_strncpy(char *dest, char *src, int n)
 {
