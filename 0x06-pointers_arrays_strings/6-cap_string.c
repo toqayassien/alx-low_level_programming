@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  *cap_string -main entry
- *@str: string 
+ *@str: string
  *Return: str
  */
 char *cap_string(char *str)
