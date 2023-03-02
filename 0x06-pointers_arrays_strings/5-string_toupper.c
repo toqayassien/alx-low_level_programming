@@ -2,7 +2,7 @@
 /**
  *string_toupper -main entry
  *Return: string
- *@*str:string
+ *@str: string
  */
 char *string_toupper(char *str)
 {
