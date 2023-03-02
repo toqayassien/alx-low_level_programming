@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  *string_toupper -main entry
- *Return: string
- *@str: string
+ *Return : string
+ *@str : str
  */
 char *string_toupper(char *str)
 {
