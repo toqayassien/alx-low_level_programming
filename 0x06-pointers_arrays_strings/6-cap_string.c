@@ -10,10 +10,25 @@ char *cap_string(char *str)
 
 	while (str[i])
 	{
-		if (str[i] >= 'a' && str[i] <= 'z')
+		while (str[i] >= 'a' && str[i] <= 'z')
+			i++;
+
+		if (str[index - 1] == ' ' ||
+		    str[index - 1] == '\t' ||
+		    str[index - 1] == '\n' ||
+		    str[index - 1] == ',' ||
+		    str[index - 1] == ';' ||
+		    str[index - 1] == '.' ||
+		    str[index - 1] == '!' ||
+		    str[index - 1] == '?' ||
+		    str[index - 1] == '"' ||
+		    str[index - 1] == '(' ||
+		    str[index - 1] == ')' ||
+		    str[index - 1] == '{' ||
+		    str[index - 1] == '}' ||
+		    index == 0)
 			str[i] -= 32;
 		i++;
-		_putchar(',');
 	}
 	return (str);
 }
