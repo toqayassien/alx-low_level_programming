@@ -13,5 +13,5 @@ void reverse_array(int *a, int n)
 		len++;
 
 	for (i = len - 1; i >= n; i--)
-		_putchar(a[index]);
+		_putchar(a[i]);
 }
