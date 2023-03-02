@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- **_strcat -main entry
- *@*dest: destination
- *@*src: source
+ *_strcat -main entry
+ *@dest: destination
+ *@src: source
  *Return: dest
  */
 char *_strcat(char *dest,char *src)
