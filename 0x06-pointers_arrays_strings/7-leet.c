@@ -6,6 +6,7 @@
  */
 char *leet(char *str)
 {
+	char *z = str;
 	char a[] = {'a', 'e', 'o', 't', 'l'};
 	char b[] = {4, 3, 0, 7, 1};
 	int i = 0;
@@ -19,5 +20,5 @@ char *leet(char *str)
 		}
 		str++;
 	}
-	return (str);
+	return (z);
 }
