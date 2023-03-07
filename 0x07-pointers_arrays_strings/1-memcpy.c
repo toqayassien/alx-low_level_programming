@@ -13,6 +13,6 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 	unsigned int m;
 
 	for (m = 0; m < n; m++)
-		fir[m] = *sec;
-	return (fir);
+		fir[m] = sec[m];
+	return (dest);
 }
