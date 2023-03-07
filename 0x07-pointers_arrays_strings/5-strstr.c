@@ -1,9 +1,9 @@
 #include "main.h"
 /**
  *_strstr -main point
- *@needle : char
- *@haystack : char
- *Return :char
+ *@needle: char
+ *@haystack: char
+ *Return: char
  */
 char *_strstr(char *haystack, char *needle)
 {
@@ -22,8 +22,7 @@ char *_strstr(char *haystack, char *needle)
 				if (needle[i + 1] == '\0')
 					return (haystack);
 				i++;
-			}
-			while (haystack[i] == needle[i]);
+			} while (haystack[i] == needle[i]);
 		}
 		haystack++;
 	}
