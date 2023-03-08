@@ -7,8 +7,9 @@
 int _sqrt_recursion(int n)
 {
 	int x;
+	int z = x * x;
 
-	if ((x * x) == n)
+	if (n == z)
 	{
 
 		if (n <= 0)
