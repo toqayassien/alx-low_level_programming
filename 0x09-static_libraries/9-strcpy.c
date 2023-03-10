@@ -1,1 +1,5 @@
-char *_strcpy(char *dest, char *src);
+#include "main.h"
+char *_strcpy(char *dest, char *src)
+{
+}
+
