@@ -8,23 +8,19 @@
  */
 int main(int argc, char *argv[])
 {
-	int a = atoi(argv[1]);
-	int b = atoi(argv[2]);
-	int z = a + b;
+	int num, digit, sum = 0;
 
-	if (argc == 1)
+	for (num = 1; num < argc; num++)
 	{
-		printf("0\n");
+		for (digit = 0; argv[num][digit]; digit++)
+		{
+			if (argv[num][digit] < '0' || argv[num][digit] > '9')
+				printf("Error\n");
+			return (1);
+		}
+	sum += atoi(argv[num]);
 	}
-	else if (a <= 0 || b <= 0)
-	{
-		printf("Error\n");
-		return (1);
-	}
-	else 
-	{
-	printf("%d\n", z);
-	}
+	printf("%d\n", sum);
 	return (0);
 }
 
