@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 	int b = atoi(argv[2]);
 	int z = a + b;
 
-	if (argc != 3)
+	if (argc == 1)
 	{
 		printf("0\n");
 	}
