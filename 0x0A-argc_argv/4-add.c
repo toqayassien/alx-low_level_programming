@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 	{
 		printf("0\n");
 	}
-	else if (a <= '0' || b <= '0')
+	else if (a <= 0 || b <= 0)
 	{
 		printf("Error\n");
 		return (1);
